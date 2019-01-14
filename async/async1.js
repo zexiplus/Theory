@@ -1,4 +1,5 @@
 (function() {
+
   function yieldPromise(generator){
     var iterator = generator();
     recursiveCore.call(iterator);
@@ -35,5 +36,6 @@
   
     console.warn(v2);
   });
+  
 })()
 
